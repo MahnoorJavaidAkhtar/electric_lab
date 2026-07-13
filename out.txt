@@ -1,0 +1,33 @@
+﻿PHPUnit Started (PHPUnit 12.5.31 using PHP 8.5.8 (cli) on WINNT)
+Test Runner Configured
+Bootstrap Finished (D:\hasnain_love\electrical-testing-system\vendor/autoload.php)
+Event Facade Sealed
+Test Suite Loaded (6 tests)
+Test Runner Started
+Test Suite Sorted
+Test Suite Filtered (1 test)
+Test Runner Execution Started (1 test)
+Test Suite Started (D:\hasnain_love\electrical-testing-system\phpunit.xml, 1 test)
+Test Suite Started (Feature, 1 test)
+Test Suite Started (Tests\Feature\AuthFlowTest, 1 test)
+Test Preparation Started (Tests\Feature\AuthFlowTest::test_authenticated_user_can_view_profile_page)
+Before Test Method Called (Tests\Feature\AuthFlowTest::setUp)
+Before Test Method Finished:
+- Tests\Feature\AuthFlowTest::setUp
+Test Prepared (Tests\Feature\AuthFlowTest::test_authenticated_user_can_view_profile_page)
+Test Errored (Tests\Feature\AuthFlowTest::test_authenticated_user_can_view_profile_page)
+Call to a member function all() on array
+After Test Method Called (Tests\Feature\AuthFlowTest::tearDown)
+After Test Method Finished:
+- Tests\Feature\AuthFlowTest::tearDown
+Test Finished (Tests\Feature\AuthFlowTest::test_authenticated_user_can_view_profile_page)
+After Last Test Method Called (Tests\Feature\AuthFlowTest::tearDownAfterClass)
+After Last Test Method Finished:
+- Tests\Feature\AuthFlowTest::tearDownAfterClass
+Test Suite Finished (Tests\Feature\AuthFlowTest, 1 test)
+Test Suite Finished (Feature, 1 test)
+Test Suite Finished (D:\hasnain_love\electrical-testing-system\phpunit.xml, 1 test)
+Test Runner Execution Finished
+Test Runner Finished
+PHPUnit Finished (Shell Exit Code: 2)
+{"tool":"phpunit","result":"failed","tests":1,"passed":0,"assertions":1,"duration_ms":1303,"errors":1,"error_details":[{"test":"Tests\\Feature\\AuthFlowTest::test_authenticated_user_can_view_profile_page","file":"D:\\hasnain_love\\electrical-testing-system\\tests\\Feature\\AuthFlowTest.php","line":66,"message":"Call to a member function all() on array"}]}
